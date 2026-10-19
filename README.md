@@ -1,6 +1,6 @@
 # swift-shim-probe
 
-The stub is modelled on mise's `mise-shim.exe`. It is one tiny `.exe` that gets copied to `swift.exe`, `swiftc.exe` and so on. It reads its own file name and runs:
+The stub is modelled on [mise's shims](https://mise.jdx.dev/dev-tools/shims.html), which on Windows are copies of `mise-shim.exe`. It is one tiny `.exe` that gets copied to `swift.exe`, `swiftc.exe` and so on. It reads its own file name and runs:
 
 ```
 <manager> run <name> <args...>
